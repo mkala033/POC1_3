@@ -8,8 +8,8 @@ terraform {
     bucket ="mypocbucket11"
     key    = "global/s3/terraform.tfstate"
     region = "us-east-1"
-    access_key = "AKIA3KZTFPFPWTHUYSNC"
-    secret_key = "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"
+    access_key = "AKIA3KZTFPFPWTHUY***"
+    secret_key = "ydH4E2/0qIHBP9IlASN23c8N6vgSqwWQu1bnj***"
   }
 }
 resource "aws_instance" "POC" {
